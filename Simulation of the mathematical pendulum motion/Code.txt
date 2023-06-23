@@ -1,0 +1,146 @@
+﻿
+
+private static void rk4(int s) {
+double dt = 0.005;
+double g -10;
+double m = 1;
+double l = 1;
+double a = toRadians (45);
+double w = 0;
+double e = g / 1 * sin(a);
+double kla = w;
+double klw = e;
+double a2_k1a = a + kla * dt / 2;
+double w2_k1w = kla + klw * dt / 2;
+double e2_kla = g / 1 * sin(a2_k1a);
+double k2a = w2_k1w;
+double k2w = e2_k1a;
+double a2_k2a = a2_k1a + k2w * dt / 2; double w2_k2w = k2a + k2w * dt / 2;
+double e2_k2a = g / l * sin(a2_k2a);
+double k3a = w2_k2w;
+double k3w = e2_k2a;
+double a_k3a = a2_k2a + k3w * dt / 2;
+double w_k3w = k3a + k3w * dt / 2;
+double e_k3a = g / 1 * sin(a_k3a);
+double k4a = w_k3w;
+double k4w = e_k3a;
+double da = (k1a + 2 * k2a + 2 * k3a + k4a) / 6 * dt;
+double dw = (k1w + 2 * k2w + 2 * k3w + k4w) / 6 * dt; double x = l * cos(a PI/2);
+double y = 1 * sin(a - PI/2);
+double h = 1 + Y;
+double Ep =
+abs (m*g*h);
+double Ek = m * pow(l*w,2.0)/2;
+double Ec = Ep + Ek;
+
+﻿
+
+for (double d = dt; d <= s; d+=dt) {
+}
+a
++= da;
+w += dw;
+e = g/l* sin(a);
+kla = w;
+k1w = e;
+a2_kla = a + kla * dt / 2;
+w2_k1w =
+kla + klw * dt / 2;
+e2_k1a = g / 1 * sin(a2_k1a);
+k2a = w2_k1w;
+k2w = e2_k1a;
+a2_k2a = a2_k1a + k2w * dt / 2; w2_k2w = k2a + k2w * dt / 2;
+e2_k2a = g / l * sin(a2_k2a);
+k3a= w2_k2w;
+k3w = e2_k2a;
+a_k3a = a2_k2a + k3w * dt / 2;
+w_k3w = k3a + k3w * dt / 2;
+e_k3a = g/l * sin(a_k3a);
+k4a = w_k3w;
+k4w = e_k3a;
+da = (kla + 2 * k2a + 2 * k3a + k4a) / 6 * dt; dw = (k1w + 2 * k2w + 2 * k3w + k4w) / 6 * dt; x = 1 * cos(a - PI/2);
+y = 1 * sin(a - PI/2);
+h = 2 + y;
+Ep =
+abs (mgh);
+Ek = m * pow(l*w, 2.0)/2;
+Ec = Ep+ Ek;
+System.out.println(y);
+
+﻿
+
+private static void ulepszonyEuler(int s) {
+double dt = 0.005;
+double g = -10;
+double m =
+1;
+double l =
+1;
+double a = toRadians (45);
+double w = 0;
+double e = g / 1 * sin(a);
+double a2 = a + w * dt / 2;
+double w2 = w + e* dt / 2;
+double e2 = g / 1 * sin(a2);
+double da = w2 * dt;
+double dw = e2 * dt;
+double x = 1 * Math.cos(a2- PI/2);
+double y = 1 * sin(a2 - PI/2);
+double h = 1 + Y;
+double Ep = abs(m * g * h);
+double Ek = m * pow(l*w, 2.0)/2;
+double Ec =
+Ep + Ek;
+for (double d = dt; d <= s; d+=dt){
+a += da;
+W += dw;
+e = g/l* sin(a);
+a2 = a + w dt / 2;
+w2 = w + e* dt / 2;
+}
+e2
+=
+g/l * sin(a2);
+da w2 dt;
+dw e2
+dt;
+x =
+Math.cos (a2- PI/2);
+y = 1 * sin(a2 - PI/2);
+h = 1 + y;
+Ep =
+abs (mgh);
+Ek = m * pow(l * W, 2.0)/2;
+Ec = Ep + Ek;
+
+﻿
+
+public static void euler(int s) {
+double dt = 0.005;
+double g = -10;
+double m = 1;
+double l = 1;
+double a = toRadians (45);
+double w = 0;
+double e = g/l* sin(a);
+double da = w * dt;
+double dwe * dt;
+double x = l * Math.cos(a- PI/2);
+double y = l * sin(a - PI/2);
+double h = 1 + Y;
+double Ep = abs(m*g*h);
+double Ek = m pow(l * w,2.0)/2;
+double Ec = Ep + Ek;
+for (double d = dt; d <= s; d+=dt){
+a += da;
+w += dw;
+e = g/l* sin(a);
+da = w * dt;
+dw = e * dt;
+x = 1 * Math.cos(a- PI/2);
+y = 1 * sin(a - PI/2);
+h = 2 + y;
+Ep = abs(m*g*h);
+Ek = m * pow(l*w,2.0)/2; Ec = Ep+ Ek;
+}
+}

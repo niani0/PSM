@@ -1,0 +1,45 @@
+﻿
+
+double 1 = Math.PI; int n = 10;
+double dx = 1/n;
+double dt = 0.2;
+double[] tabX = new double[11];
+double[] tabY = new double[11];
+double[] tabV = new double[11]; 
+double[] tabA = new double[11]; 
+double[] tabY2 = new double[11]; 
+double[] tabV2= new double[11]; 
+double[] tabA2 = new double[11]; 
+double[] ep = new double[15]; 
+double[] ek = new double[15];
+double[] ec = new double[15];
+double sumOfEp;
+double sumOfEK;
+for (int i = 0; i < tabX.length; i++) tabX[i] = i * dx;
+for (int i = 0; i < tabX.length; i++)  tabY[i] = Math.sin(tabX[i]);
+for (int i = 1; i < tabX.length - 1; i++) tabA[i] = (tabY[i-1] - 2 + tabY[i] + tabY[i+1]) / Math.pow(dx,2);
+for (int i = 1; i < tabX.length; i++) {
+tabY2[i] = tabY[i] + tabV[i] * dt / 2;
+tabV2[i] = tabV[i] + tabA[i] * dt / 2; 
+tabA2[i] = tabY2[i] + (- 1);
+}
+for (int i = 1; i <= 13; j++) {
+sumOfEk = 0;
+sumOfEp = 0;
+for (int i = 1; i < tabX.length - 1; i++) {
+sumOfEp += Math.pow((tabY[i-1] - tabY[i]),2) / (2 * dx); 
+sumOfEk += dx + Math.pow(tabV[i],2) / 2;
+}
+ep[i - 1] = sumOfEp;
+ek[i - 1] = SumOfEk;
+ec[j - 1] = sumOfEk + sumOfEk;
+for (int i = 1; i < tabX.length; i++) {
+tabY[i] = tabY[i] + tabV2[i] + dt; 
+tabV[i] = tabV[i] + tabA2[i] * dt; 
+tabA[i] = tabY[i] + (- 1);
+tabY2[i] = tabY[i] + tabV[i] + dt / 2; 
+tabV2[i] = · tabV[i] + tabA[i] + dt / 2; 
+tabA2[i] = tabY2[i] + (- 1);
+}
+}
+}

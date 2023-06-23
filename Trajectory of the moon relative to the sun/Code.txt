@@ -1,0 +1,47 @@
+double m1 = 1.989E+30; 
+double m2 = 5.972E+24; 
+double d = 1.5E+11;
+oblicz (m1, m2, d); 
+m1 = 5.972E+24;
+m2 = 7.347E+22;
+d = 384400000; 
+oblicz (m1, m2, d);
+
+public static void oblicz (double m1, double m2, double d){ 
+double g = 6.6473E-11;
+double dt = 360 * 60;
+double vi = Math.sqrt((g* m1) / d);
+double x = 0;
+double y = d;
+double vX = vi;
+double vY = 0;
+d = Math.sqrt((x * -x )+( -y )*( -y ));
+double f = (g*m1*m2)/(d * d);
+double fX = (-x) / d * f;
+double fY = (-y) / d * f;
+double aX = fX / m2;
+double aY = fY/ m2;
+double x2 = vX + ax * dt / 2;
+double y2 = vY + aY * dt / 2;
+double dX = x2 * dt;
+double dy = y2 * dt;
+double dVx = aX * dt;
+double dVy = ay * dt;
+for(int i=0;i<5000;i++) {
+x += dx;
+y += dY;
+vX += dVx;
+VY += dVy;
+d = Math.sqrt((-x * -x) + (-y) * (-y));
+f = (g* m1 * m2) / (d * d);
+fX = (-x) / d * f;
+fY = (-y) / d * f;
+ax = fX / m2;
+aY = fY/ m2;
+x2 = vX + aX * dt / 2;
+y2vY + aY * dt / 2;
+dX = x2 * dt;
+dY = y2 * dt;
+dVx = ax * dt;
+dVy = aY * dt;
+}

@@ -1,0 +1,88 @@
+Przykład szeregu Taylora: 
+liczenie kąta wyrażonego w radianach PI/10
+Wyliczone z szeregu taylora dla 1 wyrazów szeregu :0.3141592653589793
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 0.005142270984031916
+
+Wyliczone z szeregu taylora dla 2 wyrazów szeregu :0.3141592653589793
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 0.005142270984031916
+
+Wyliczone z szeregu taylora dla 3 wyrazów szeregu :0.30899155257892935
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 2.5441796018044194E-5
+
+Wyliczone z szeregu taylora dla 4 wyrazów szeregu :0.30899155257892935
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 2.5441796018044194E-5
+
+Wyliczone z szeregu taylora dla 5 wyrazów szeregu :0.3090727268214577
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 5.5732446510303735E-5
+
+Wyliczone z szeregu taylora dla 6 wyrazów szeregu :0.3090727268214577
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 5.5732446510303735E-5
+
+Wyliczone z szeregu taylora dla 7 wyrazów szeregu :0.30907211963954345
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 5.512526459605649E-5
+
+Wyliczone z szeregu taylora dla 8 wyrazów szeregu :0.30907211963954345
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 5.512526459605649E-5
+
+Wyliczone z szeregu taylora dla 9 wyrazów szeregu :0.3090721222888743
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 5.512791392692229E-5
+
+Wyliczone z szeregu taylora dla 10 wyrazów szeregu :0.3090721222888743
+Wartość prawdziwa: 0.3090169943749474
+Różnica wartości: 5.512791392692229E-5
+
+Wartośc kąta :0.3090721222888743
+
+liczenie kąta wyrażonego w stopniach (230 stopni)
+Wyliczone z szeregu taylora dla 1 wyrazów szeregu :0.8726646259971647
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 0.10662018287818675
+
+Wyliczone z szeregu taylora dla 2 wyrazów szeregu :0.8726646259971647
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 0.10662018287818675
+
+Wyliczone z szeregu taylora dla 3 wyrazów szeregu :0.7619026065345025
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 0.004141836584475422
+
+Wyliczone z szeregu taylora dla 4 wyrazów szeregu :0.7619026065345025
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 0.004141836584475422
+
+Wyliczone z szeregu taylora dla 5 wyrazów szeregu :0.7667355113489562
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 6.910682299783311E-4
+
+Wyliczone z szeregu taylora dla 6 wyrazów szeregu :0.7667355113489562
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 6.910682299783311E-4
+
+Wyliczone z szeregu taylora dla 7 wyrazów szeregu :0.7666350945615185
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 5.906514425405573E-4
+
+Wyliczone z szeregu taylora dla 8 wyrazów szeregu :0.7666350945615185
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 5.906514425405573E-4
+
+Wyliczone z szeregu taylora dla 9 wyrazów szeregu :0.7666363116473275
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 5.918685283495817E-4
+
+Wyliczone z szeregu taylora dla 10 wyrazów szeregu :0.7666363116473275
+Wartość prawdziwa: 0.7660444431189779
+Różnica wartości: 5.918685283495817E-4
+
+Wartośc kąta :-0.7666363116473275
+
+Process finished with exit code 0
